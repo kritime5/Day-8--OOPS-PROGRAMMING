@@ -9,6 +9,18 @@ public class EmployeeWageCalculation {
             System.out.println("Employee is present");
         }else{
             System.out.println("Employee is absent");
+            //UC2-CALCULATE EMPLOYEE WAGE
+            // WAGE-given wage per hr is 20 and full day hr is 8
+            //CONSTANTS
+            int EMP_WAGE_PER_HOUR=20;
+            int IS_FULL_TIME=1;
+            //VARIABLES
+            int empHrs=0;
+            int empWage=0;
+
+            empWage=empHrs*EMP_WAGE_PER_HOUR;
+            System.out.println("Emp Wage:"+empWage);
+
         }
     }
 }
